@@ -1,7 +1,5 @@
-function listFollowers(followerNames: string[]): string {
-  // complete function
-  // use array destructuring, for practice!
-  return "fails test right now";
+function listFollowers([firstFollower, secondFollower]: string[]): string {
+  return `Followed by ${firstFollower}, ${secondFollower} and others`;
 }
 
 export default listFollowers;
